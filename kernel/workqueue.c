@@ -3865,10 +3865,9 @@ static int __init init_workqueues(void)
 
 
    BUG_ON(!system_wq || !system_long_wq || !system_nrt_wq ||
-               !system_unbound_wq || !system_freezable_wq ||
-                !system_nrt_freezable_wq) || !system_power_efficient_wq ||
-  	       !system_freezable_power_efficient_wq);
-
+                !system_unbound_wq || !system_freezable_wq ||
+                !system_nrt_freezable_wq || !system_power_efficient_wq ||
+                !system_freezable_power_efficient_wq);
 
 
 
